@@ -1,7 +1,6 @@
 # Trajectories-Prediction-NN
-Study of Trajectories Prediction with Neural Network Feed-Forward
-
-report.pdf describes
+Study and analysis of Trajectories Prediction with Neural Network Feed-Forward.
+The file 'report.pdf' describes the work.
 
 ## Installation
 
@@ -16,15 +15,17 @@ This project requires the following Python packages installed:
 
 ## Example execution
 
-This command start the training with gpu device and model non linear multi-layer:
+This command start the training with GPU device and non linear multi-layer model:
 ```
 $ python train.py -c -m
 ```
 
-this command open TensorBoard session to visualize the results:
+This command open TensorBoard session to visualize the results:
 ```
 $ tensorboard --logdir=runs-test
 ```
+
+The details of training, qualitative results and trained model are saved in folder 'test'.
 
 
 ## Command line arguments
@@ -40,12 +41,9 @@ $ tensorboard --logdir=runs-test
 
 ```
 
-### Usage
-```
-train.py [-h] [-t | -p] [-p0 P0] [-q Q] [-r0 R0] [-n N] [-k K] [-v VEHICLE] [path]
-```
 
 **Note**:
+This project has been developed for the course "Image and Video Analysis" ( Università degli studi di Firenze ).
 
 
 ## Authors
